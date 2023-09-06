@@ -16,10 +16,10 @@ class FlaskTestCase(unittest.TestCase):
     
     def test_goodbye_world(self):
         # Get a response from the server, using it to test.
-        response = self.app.get("/giggity")
+        response = self.app.get("/login")
         # If response status code is 200, then OK 
         self.assertEqual(response.status_code, 200)
-        self.assertIn(b'<li>epic</li', response.data)
+        self.assertIn(b'<h1 class="title">AI Speakeasy</h1>', response.data)
     
 
 

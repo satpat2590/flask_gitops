@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+    <style>
+        .container {
+            display: flex;
+            flex-direction: column; 
+            justify-content: center; 
+            align-items: center;
+        }
+
+        .inputcontainer {
+            margin: 0.5rem; 
+            font-size: 20px;
+            display: flex;
+            flex-direction: row;
+        }
+        
+        .label {
+            align-items: center;
+            display: flex;
+            margin-right: 0.5rem;
+        }
+
+        .input {
+            font-size: 20px;
+            height: 40px;
+            width: 310px;
+        }
+
+        .submit {
+            display: flex; 
+            justify-content: center;
+        }
+
+        .submitbutton {
+            font-size: 20px; 
+            padding: 0.5rem;
+        }
+
+        .wrongpass {
+            visibility: hidden;
+            font-size: 14px;
+            color: red;
+            font-style: oblique;
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>AI Speakeasy</h1>
+        <form action="/login" method="post">
+            <div class="inputcontainer">
+                <label class="label" for="username">Username:</label>
+                <input class="input" type="text" id="username" name="username" required>
+            </div>
+            <br>
+            <div class="inputcontainer">
+                <label class="label" for="password">Password:</label>
+                <input class="input" type="password" id="password" name="password" required>
+                <p class="wrongpass">Password must have more than 5 characters.</p>
+            </div>
+            <br>
+            <div class="submit">
+                <input class="submitbutton" type="submit" value="Login">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: linear-gradient(to bottom, #0066cc 0%, #99ccff 100%);
+            color: #fff;
+        }
+
+        .title-container {
+            position: absolute;
+            top: 10%;
+            width: 100%;
+            text-align: center;
+        }
+
+        .title {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .formfields {
+            display: flex; 
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .inputcontainer {
+            margin: 0.5rem;
+            font-size: 20px;
+            display: flex;
+            align-items: center;
+        }
+
+        .label {
+            margin-right: 0.5rem;
+            width: 100px;
+        }
+
+        .input {
+            font-size: 20px;
+            padding: 10px;
+            width: 300px;
+            border: 2px solid #fff;
+            border-radius: 5px;
+            background: transparent;
+            color: #fff;
+            margin-right: 0.5rem;
+        }
+
+        .submit {
+            display: flex;
+            justify-content: center;
+        }
+
+        .submitbutton {
+            font-size: 20px;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            background: #fff;
+            color: #0066cc;
+            cursor: pointer;
+        }
+
+        .wrongpass {
+            font-size: 18px;
+            color: darkgreen;
+            font-style: oblique;
+            font-weight: bold;
+            margin: 0.3rem;
+        }
+
+        .robot {
+            color: white;
+            height: 150px;
+            width: 150px;
+        }
+    </style>
+</head>
+<body>
+    <div class="title-container">
+        <h1 class="title">AI Speakeasy</h1>
+        <img class="robot" src="{{ url_for('static', filename='robot.png') }}" alt="robot man"/> 
+    </div>
+    <div class="container">
+        <form action="/login" method="post">
+            <div class="formfields">
+                <div class="inputcontainer">
+                    <label class="label" for="username">Username:</label>
+                    <input class="input" type="text" id="username" name="username" required>
+                </div>
+                <br>
+                <div class="inputcontainer">
+                    <label class="label" for="password">Password:</label>
+                    <input class="input" type="password" id="password" name="password" required>
+                </div>
+                {% with messages = get_flashed_messages() %}
+                {% if messages %}
+                    <p class="wrongpass">{{ messages[0] }}</p>
+                {% else %}
+                    <p class="wrongpass" style="visibility: hidden;">Password must have more than 5 characters</p>
+                {% endif %}
+                {% endwith %}
+            </div>
+            <br>
+            <div class="submit">
+                <input class="submitbutton" type="submit" value="Login">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
