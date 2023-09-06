@@ -11,7 +11,7 @@ password = "pass"
 def index():
     global username, password
     print(username, password, "index testing")
-    if username != "user" and password != "pass": 
+    if 'username' in session: 
         return "<h1>Hello, World!</h1>"
     else:
         return redirect(url_for('login'))
@@ -31,6 +31,7 @@ def login():
  
     username = request.form['username']
     password = request.form['password']
+    session['username'] = username
     return redirect(url_for('index'))
 
 
