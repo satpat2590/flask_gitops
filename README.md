@@ -31,7 +31,7 @@ This job will run an ubuntu environment, and then use a pre-existing workflow to
 If you made it here, it means you're probably trying to embed your own PDFs or other files so that the models can accurately reference them. Let's get you started so that you 
 can turn PDFs into well-formatted text. 
 
-### For Machines Using 'apt' Package Manager
+### For Machines Using 'apt' Package Manager (Linux, debian-based systems)
 
 Go into your terminal and run the following: 
 
@@ -50,4 +50,11 @@ Go into your terminal and run the following:
 ```bash
 brew update --auto-update
 brew install tesseract
+brew install poppler
+brew install --cask pdfify 
+brew install pinfo && brew install pdfinfo
 ```
+
+tesseract would be necessary to turn the images of the PDFs into a usable text format using Google's Tesseract OCR Engine. 
+
+poppler, pdfify, pinfo, pdfinfo would be necessary to run the pdf2image module in the application.
