@@ -31,7 +31,7 @@ This job will run an ubuntu environment, and then use a pre-existing workflow to
 If you made it here, it means you're probably trying to embed your own PDFs or other files so that the models can accurately reference them. Let's get you started so that you 
 can turn PDFs into well-formatted text. 
 
-# For Machines Using 'apt' Package Manager
+### For Machines Using 'apt' Package Manager
 
 Go into your terminal and run the following: 
 
@@ -43,3 +43,11 @@ sudo apt-get install tesseract-ocr
 This should install Google's Tesseract OCR (Optical Character Recognition) within your machine. With this installed, the python module (pytesseract) should be able to run 
 from flask_gitops/embeddings.py and convert PDFs -> Images -> Text 
 
+### For MacOS Using 'brew' Package Manager
+
+Go into your terminal and run the following: 
+
+```bash
+brew update --auto-update
+brew install tesseract
+```
