@@ -1,0 +1,94 @@
+Satyam Patel
+
+Implementation Consultant
+
+lam a detail-oriented professional with a love for automation, history, and language, seeking to apply my combined expertise in
+Software Engineering and Business Analysis. My understanding that automation will reshape all industries informs my
+forward-thinking approach. My goal is to be a versatile, skilled, and confident contributor in any team. With an unyielding drive
+for learning and adaptation, | am prepared to make meaningful contributions in a role as an Implementation Consultant.
+
+Whitehall, PA e (484)-788-5197 ¢ patelsatyam100@gmail.com
+
+EDUCATION:
+Lehigh University- Bethlehem, PA Graduated: May 2023
+Major: Computer Science and Business
+
+SKILLS: Machine Learning, Agile Principles, Microsoft Office (Excel, PowerPoint, PowerBl), Database Management (SQL, MySQL),
+Java, Web Development (JavaScript/TS, HTML, CSS), Python, Tax, RESTful API
+
+WORK EXPERIENCE:
+
+Full-Stack Software Engineering Intern Sep 2022 — Jan 2023
+Balanced Tiger
+
++ Developed a retail prediction system using Springboot and MySQL, leveraging a user-friendly web
+
+interface to visualize data.
+
++ Utilized TensorFlow to create machine learning models that forecast product demand and
+
+customer behavior based on historical data, improving inventory management, and enhancing
+
+customer experience.
+
++ Implemented MongoDB as a NoSQL database to store unstructured data, facilitating greater
+
+flexibility and scalability.
+Business Analyst Intern June 2021 - Aug 2021
+KPMG Prague
+
++ Conducted extensive industry research and developed detailed reports on the global advancement
+
+of the Telecommunications department, particularly in the field of 5G connectivity, aiding strategic
+
+decision-making for key stakeholders.
+
++ Leveraged data analytics with MS PowerBI to anticipate market trends and provide strategic
+
+recommendations for client investment, leading to enhanced market preparedness and competitive
+
+positioning.
+
++ Collaborated with cross-functional teams to align investment strategies with market trends and
+
+client objectives, fostering a unified approach to achieving business goals.
+Accounting Intern June 2019 - Aug 2019
+B.P. & Associates
+
++ Leveraged Quickbooks and GNUCash to generate pay-stubs and paychecks for various companies in
+
+the Lehigh Valley region, enhancing their payroll management efficiency.
+
++ Assessed and recorded income tax, self-employment tax, and excise tax calculations for diverse
+
+companies, ensuring accurate tax compliance.
+
+RELATED EXPERIENCES: (also on https://sbpatel.dev)
+‘History-Walker’ App: Full-Stack History Project
+e Developed a Docker-based web application for interactive history timeline.
+e@ Utilized a microservices architecture with a Python backend and a MySQL database.
+e Used the FastAPI framework in Python backend for rapid RESTful API development and performance.
+e Leveraged Docker Compose for the configuration and orchestration of the multi-container application.
+
+Al-Driven Stock Portfolio Manager: GPT-Inspired Project
+e Designed and developed an Al-powered stock portfolio management system using Python, leveraging libraries such as
+TensorFlow, Pandas, Langchain and OpenAl to provide an in-depth analysis of stocks and associated markets.
+Utilized a microservices architecture with a Python backend and a MySQL database.
+Used the FastAPI framework in Python backend for rapid RESTful API development and performance.
+e Leveraged Docker Compose for the configuration and orchestration of the multi-container application.
+
+CLUBS/ORGANIZATIONS:
+South Asian Students Association (SASA) - Lehigh University May 2021 - May 2022
+President
+
+@ Worked alongside the executive board including the 200+ members to promote South Asian culture through
+campus-wide events such as Diwali, Holi, and Garba.
+© Collaborated with other cultural clubs in major events throughout both semesters.
+
+Creatives of Lehigh (Photography Club) - Lehigh University May 2020 - Jan 2022
+Co-Founder
+
+e Assisted in creating the club constitution and creating links to other clubs and college organizations.
+
+e Planned creative photography events for increased community building and connections.
+
